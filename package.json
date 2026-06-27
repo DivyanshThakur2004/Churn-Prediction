@@ -1,0 +1,16 @@
+{
+  "name": "churn-ai",
+  "version": "1.0.0",
+  "description": "Customer Churn Prediction powered by IBM Watson ML",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  }
+}
